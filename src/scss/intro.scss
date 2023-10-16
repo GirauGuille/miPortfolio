@@ -1,0 +1,166 @@
+.i {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 20px;
+}
+
+.i-left {
+    flex: 1.5;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.i-right {
+    flex: 1;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.i-left-wrapper {
+    height: 80%;
+    padding: 10px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.i-intro {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.i-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.i-title {
+    height: 40px;
+    width: 280px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.i-title-wrapper {
+    height: 50%;
+    width: 350px;
+    animation: move 8s ease-in-out infinite alternate;
+}
+
+.i-desc {
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+
+@keyframes move {
+    25% {
+        transform: translateY(-0px);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(-100px);
+    }
+}
+
+.i-title-item {
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--verde-claro);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+
+}
+
+.i-img {
+    width: 60%;
+}
+
+.btnSobreMi {
+    text-align: center;
+    background-color: #00ff008a;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: .2rem;
+    width: 200px;
+    border-radius: 2rem;
+    padding: 10px;
+    margin: 50px;
+    color: black;
+    font-weight: bold;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 6px 6px 20px -1px #0e4b1b,
+        -6px -6px 20px -1px #117e21;
+
+    &:hover {
+        background-color: #33ff33;
+    }
+
+    &:active {
+        background-color: #00ff00;
+        /* Cambia el color al hacer clic */
+        box-shadow: 0 2px 4px rgba(0, 255, 0, 0.4), 0 -2px 4px rgba(0, 255, 0, 0.4);
+        /* Efecto relieve al hacer clic */
+    }
+}
+
+@media (min-width: 768px) {
+
+    .btnSobreMi {
+        margin-top: 5rem;
+    }
+
+    .i-img {
+        width: 60%;
+    }
+
+    .i-desc {
+        font-size: 22px;
+    }
+    .i-name {
+        font-size: 50px;
+    }
+    .i-title-item{
+        font-size: 30px;
+    }
+    .i-intro {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .i {
+        flex-direction: row;
+    }
+
+    .i-left {
+        margin: 2rem;
+        font-size: large;
+    }
+
+    .i-right {
+        margin: 2rem;
+    }
+
+    .i-img {
+        width: 600px;
+        padding: 2rem;
+    }
+
+    .i-desc {
+        font-size: 25px;
+    }
+}

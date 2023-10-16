@@ -1,0 +1,37 @@
+.contacto {
+    height: 100vh;
+
+    .cTitle {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .cInfo {
+        margin: 1rem;
+        background-color: var(--verde-oscuro);
+        padding: 1rem;
+
+        .linkBox {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 15px;
+
+            .btnC {
+                
+                width: 6rem;
+                height: 6rem;
+                background-color: var(--verde-negro);
+                border-radius: 8px;
+                margin: 12px;
+                padding: 5px;
+                font-size: large;
+                a {
+                    color: var(--verde-cyan);
+                }
+            }
+        }
+    }
+}

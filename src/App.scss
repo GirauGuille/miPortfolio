@@ -1,0 +1,16 @@
+/* ABSTRACTS */
+@use './scss/abstracts/variables';
+@use './scss/abstracts/mixins';
+
+/* BASE */
+@use './scss/base/base';
+@use './scss/base/resets';
+
+/* COMPONENTES */
+@use './scss/intro';
+@use './scss/navbar';
+@use './scss/about';
+@use './scss/portfolio';
+@use './scss/contact';
+@use './scss/form';
+@use './scss/phrase';

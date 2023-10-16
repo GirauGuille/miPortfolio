@@ -1,0 +1,56 @@
+[
+    {
+        "id":1,
+        "title": "Bachillerato en economía y administración",
+        "institucion": "Instituto Santa Rosa de Lima",
+        "year": "2007",
+        "logoI": "../img/isr.png",
+        "img": "../img/titulo_javascript.png",
+        "tools": []
+    },
+    {
+        "id":1,
+        "title": "Diseñador Gráfico",
+        "institucion": "Universidad Interamericana Abierta",
+        "year": "2010",
+        "logoI": "../img/UAI.jpg",
+        "img": "../img/titulo_titulo_diseño_grafico.png",
+        "tools": []
+    },
+    {
+        "id":1,
+        "title": "Desarrollo web",
+        "institucion": "Coderhouse",
+        "year": "2022",
+        "logoI": "../img/coder3.jpg",
+        "img": "../img/titulo_desarrollo_web.png",
+        "tools": []
+    },
+    {
+        "id":1,
+        "title": "Javascript",
+        "institucion": "Coderhouse",
+        "year": "2022",
+        "logoI": "../img/coder3.jpg",
+        "img": "../img/titulo_javascript.png",
+        "tools": []
+    },
+    {
+        "id":1,
+        "title": "React",
+        "institucion": "Coderhouse",
+        "year": "2023",
+        "logoI": "../img/coder3.jpg",
+        "img": "../img/titulo_react.png",
+        "tools": []
+    },
+    {
+        "id":1,
+        "title": "Backend",
+        "institucion": "Coderhouse",
+        "year": "2023",
+        "logoI": "../img/coder3.jpg",
+        "img": "../img/titulo_backend.png",
+        "tools": []
+    }
+]
