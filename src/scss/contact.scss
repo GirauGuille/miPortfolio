@@ -1,9 +1,10 @@
+@import './abstracts/mixins';
+
 .contacto {
     height: 100vh;
 
     .cTitle {
-        font-size: 2rem;
-        text-align: center;
+        @include title
     }
 
     .cInfo {
@@ -20,7 +21,7 @@
             margin-top: 15px;
 
             .btnC {
-                
+
                 width: 6rem;
                 height: 6rem;
                 background-color: var(--verde-negro);
@@ -28,10 +29,26 @@
                 margin: 12px;
                 padding: 5px;
                 font-size: large;
+
                 a {
-                    color: var(--verde-cyan);
+                    color: var(--verde-claro);
                 }
             }
         }
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1280px) {
+    .cInfo{
+        flex: 0.4;
+    }
+    .form{
+        flex: 1;
+    }
+    .contactoBox{
+        display: flex;
+        flex-direction: row;
     }
 }

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
 /* import Typed from 'react-typed' */
 
 function phrase() {

@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"Mi Portfolio",
+        "description":"Portfolio de mi trabajo como programador.",
+        "categoria": "diseño gráfico, desarrollo web",
+        "url":"https://miportafolio.com",
+        "tools": []
+    },
+    {
+        "id":2,
+        "name":"Giraucar",
+        "description":"eccomers de agencia de autos como Kavak",
+        "categoria": "diseño gráfico, desarrollo web",
+        "url":"https://miportafolio.com",
+        "tools": []
+    },
+    {
+        "id":3,
+        "name":"Corralon 200",
+        "description":"eccomers de un corralón",
+        "categoria": "diseño gráfico, desarrollo web",
+        "url":"https://miportafolio.com",
+        "tools": []
+    }
+]

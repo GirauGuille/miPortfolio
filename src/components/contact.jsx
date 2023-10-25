@@ -8,26 +8,28 @@ function contact() {
     return (
         <div className='contacto' id='contact'>
             <h2 className='cTitle'>CONTACTAME</h2>
-            <div className="cInfo">
-                <p className="cTexto">Pongamos en contacto y hagamos un gran proyecto juntos.</p>
-                <div className='linkBox'>
-                    <button className="btnC">
-                        <a href=""> <FaSquareWhatsapp size={40} /></a>
-                    </button>
-                    <button className="btnC">
-                        <a href=""> <BsFillTelephoneFill size={40} />
-                        </a>
-                    </button>
-                    <button className="btnC">
-                        <a href=""> <BsEnvelopeFill size={40} /></a>
-                    </button>
-                    <button className="btnC">
-                        <a href=""> <AiFillLinkedin size={40} /></a>
-                    </button>
+            <div className="contactoBox">
+                <div className="cInfo">
+                    <p className="cTexto">Pongamos en contacto y hagamos un gran proyecto juntos.</p>
+                    <div className='linkBox'>
+                        <button className="btnC">
+                            <a href=""> <FaSquareWhatsapp size={40} /></a>
+                        </button>
+                        <button className="btnC">
+                            <a href=""> <BsFillTelephoneFill size={40} />
+                            </a>
+                        </button>
+                        <button className="btnC">
+                            <a href=""> <BsEnvelopeFill size={40} /></a>
+                        </button>
+                        <button className="btnC">
+                            <a href=""> <AiFillLinkedin size={40} /></a>
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <Form />
-            <div className="cForm">
+                <div className="form">
+                    <Form />
+                </div>
             </div>
         </div>
     )

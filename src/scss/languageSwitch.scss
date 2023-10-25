@@ -1,0 +1,35 @@
+.language-switch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 55px;
+    height: 20px;
+    border-radius: 15rem;
+    background-color: #333;
+}
+
+.language-option {
+    cursor: pointer;
+    padding: 3px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.language-option.active {
+    background-color: green;
+}
+
+.switch {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.switch.active {
+    transform: translateX(30px);
+    /* Mover el círculo a la posición "EN" */
+}

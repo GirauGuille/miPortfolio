@@ -1,0 +1,30 @@
+.typewriter-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.typewriter {
+    font-family: monospace;
+    font-size: 20px;
+    white-space: wrap;
+    overflow: hidden;
+    border-right: 2px solid transparent;
+    /* Simula el cursor */
+    animation: blink-caret 1s step-end infinite;
+}
+
+.cursor.blink {
+    border-color: #333;
+    /* Color del cursor cuando está visible */
+}
+
+@keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.author {
+    font-size: 16px;
+    margin-top: 10px;
+}

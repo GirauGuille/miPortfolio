@@ -1,7 +1,7 @@
 import React from 'react'
 import yo from '../img/yo2.png'
 import cvPdf from '../img/GuillermoGirauCV.pdf'
-import Phrase from "../components/phrase"
+import TypewriterWithAuthor from "../components/TypewriterWithAuthor"
 
 function about() {
     return (
@@ -16,7 +16,9 @@ function about() {
                 </div>
                 <img className='foto' src={yo} alt="Guillermo Lucas Girau" />
             </div>
-            <Phrase />
+            <div className='App'>
+            <TypewriterWithAuthor text="ELIGE UN TRABAJO QUE TE APASIONE Y NO TENDRÁS QUE TRABAJAR NI UN DÍA DE TU VIDA" author="Confucio" />
+            </div>
         </div>
     )
 }

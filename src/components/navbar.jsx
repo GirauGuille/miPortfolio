@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import { BsHouseDoorFill, BsClipboardDataFill, BsFillPersonFill, BsChatSquareDotsFill } from 'react-icons/bs'
+import { BsHouseDoorFill, BsClipboardDataFill, BsFillPersonFill, BsChatSquareDotsFill, BsFillEasel3Fill } from 'react-icons/bs'
+import LanguageSwitch from './languageSwitch'
 
 export default function navbar() {
     return (
@@ -15,9 +16,13 @@ export default function navbar() {
                 <Link to='portfolio' activeClass='active' smooth={true} spy={true} className='link'>
                     <BsClipboardDataFill />
                 </Link>
+                <Link to='projects' activeClass='active' smooth={true} spy={true} className='link'>
+                    <BsFillEasel3Fill />
+                </Link>
                 <Link to='contact' activeClass='active' smooth={true} spy={true} className='link'>
                     <BsChatSquareDotsFill />
                 </Link>
+                < LanguageSwitch />
             </div>
         </nav>
     )
