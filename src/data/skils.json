@@ -3,6 +3,35 @@
         "id": 1,
         "title": "html",
         "icon": "",
+        "category": "frontend",
         "percent": "90"
-    }
+    },
+    {
+        "id": 2,
+        "title": "css",
+        "icon": "",
+        "category": "frontend",
+        "percent": "90"
+    },
+    {
+        "id": 3,
+        "title": "js",
+        "icon": "",
+        "category": "frontend",
+        "percent": "75"
+    },
+    {
+        "id": 4,
+        "title": "photoshop",
+        "icon": "",
+        "category": "diseño",
+        "percent": "80"
+    },
+    {
+        "id": 5,
+        "title": "illustrator",
+        "icon": "",
+        "category": "diseño",
+        "percent": "80"
+    },
 ]

@@ -24,7 +24,8 @@
     "react-scroll": "^1.8.9",
     "react-simple-typewriter": "^5.0.1",
     "react-types": "^0.1.0",
-    "react-typewriting": "^2.2.0"
+    "react-typewriting": "^2.2.0",
+    "react-visibility-sensor": "^5.1.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
